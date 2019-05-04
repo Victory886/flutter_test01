@@ -17,7 +17,7 @@ samples, guidance on mobile development, and a full API reference.
 
 
 ## 这个demo学习了TabBar的知识
-```flutter
+```dart
 
 import 'package:flutter/material.dart';
 
