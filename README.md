@@ -61,3 +61,19 @@ class Home extends StatelessWidget {
 }
 
 ```
+
+- ## 本次更新主要是做了一个抽屉效果
+```dart
+
+    drawer: Container(
+      color: Colors.red,
+      padding: EdgeInsets.all(8.0),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          Text('this is drawer')
+        ],
+      ),
+    ),
+
+```
