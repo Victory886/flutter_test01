@@ -13,6 +13,8 @@ class MyApp extends StatelessWidget {
       home: Home(),
       theme: ThemeData(
         primarySwatch: Colors.yellow,
+        highlightColor: Color.fromRGBO(255, 255, 255, 0.5),
+        splashColor: Colors.white70,
       ),
     );
   }
@@ -45,6 +47,9 @@ class Home extends StatelessWidget {
           onPressed: () => debugPrint('Navigration button is pressed.'),
         ),
         bottom: TabBar(
+          unselectedLabelColor: Colors.black12,
+          indicatorColor: Colors.black12,
+          indicatorWeight: 1.0,
           tabs: <Widget>[
             Tab(icon: Icon(Icons.local_florist)),
             Tab(icon: Icon(Icons.change_history)),
@@ -61,7 +66,6 @@ class Home extends StatelessWidget {
           Icon(Icons.local_florist,size: 128.0,color: Colors.black12),
           Icon(Icons.change_history,size: 128.0,color: Colors.black12),
           Icon(Icons.directions_bike,size: 128.0,color: Colors.black12),
-
         ],
       ),
       ),
