@@ -65,10 +65,11 @@ class ContainerDemo extends StatelessWidget {
           alignment: Alignment.topCenter,
           // repeat: ImageRepeat.repeat,
           fit: BoxFit.cover,
-          colorFilter: ColorFilter.mode(  /// 设置颜色滤镜，颜色和混合模式
-            Colors.indigoAccent[400].withOpacity(0.5),
-            BlendMode.luminosity
-          ),
+          colorFilter: ColorFilter.mode(
+
+              /// 设置颜色滤镜，颜色和混合模式
+              Colors.indigoAccent[400].withOpacity(0.5),
+              BlendMode.luminosity),
         ),
       ),
       child: Row(
